@@ -8,7 +8,7 @@ class CreateTransactionForm extends AsyncForm {
 		const selectElement = this.element.querySelector(".accounts-select");
 		const user = localStorage.getItem('user');
 		const data = JSON.parse(user);
-		Account.list({ user: data.user, password: user.password }, (err, response) => {
+		Account.list({ user: data?.user, password: data?.password }, (err, response) => {
 			if (err) {
 				console.error(err);
 				return;

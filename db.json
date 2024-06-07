@@ -35,6 +35,66 @@
       "email": "oleg@dehgthtmo.xn--e1aa",
       "password": "demo",
       "id": "hvtid7yslx3od8ap"
+    },
+    {
+      "name": "Говно",
+      "email": "oleg@demo.xn--e1aaa",
+      "password": "demo",
+      "id": "hvtid2slx4jjvp3"
+    },
+    {
+      "name": "сампкае",
+      "email": "oleg@demo.xn--80aancx",
+      "password": "demo",
+      "id": "hvtid2slx4jlco8"
+    },
+    {
+      "name": "сампкае",
+      "email": "oleg@xn--demo-65d.ru",
+      "password": "demo",
+      "id": "hvtid2slx4jm3hc"
+    },
+    {
+      "name": "dwdd",
+      "email": "oldwdeg@dedwdmo.xn--e1aa",
+      "password": "demo",
+      "id": "hvtid2slx4jta3g"
+    },
+    {
+      "name": "wdwd",
+      "email": "oleg@dewmo.xn--e1aa",
+      "password": "demo",
+      "id": "hvtid2slx4jtnar"
+    },
+    {
+      "name": "fefef",
+      "email": "oleg@defefmo.xn--e1aa",
+      "password": "demo",
+      "id": "hvtid2slx4jwmhi"
+    },
+    {
+      "name": "вувув",
+      "email": "LOg@lohov.hui",
+      "password": "demo",
+      "id": "hvtidbgwlx52s795"
+    },
+    {
+      "name": "grgr",
+      "email": "olrreg@demo.xn--e1aa",
+      "password": "demo",
+      "id": "hvtid7vslx531128"
+    },
+    {
+      "name": "Alex Antipin",
+      "email": "oletg@demo.xn--e1aa",
+      "password": "demo",
+      "id": "hvtid7vslx531noq"
+    },
+    {
+      "name": "Алексей Антипин",
+      "email": "antipin.alexey1991@gmail.com",
+      "password": "HUI",
+      "id": "hvtid7vslx532nbh"
     }
   ],
   "accounts": [
@@ -82,6 +142,11 @@
       "name": "qqqq",
       "user_id": "hvtid7yslx3od8ap",
       "id": "hvtid7yslx3oqycd"
+    },
+    {
+      "name": "32323",
+      "user_id": "hvtidbgwlx52s795",
+      "id": "hvtidbgwlx52sgag"
     }
   ],
   "transactions": [
@@ -270,6 +335,24 @@
       "account_id": "hvtid7yslx3oqycd",
       "user_id": "hvtid7yslx3od8ap",
       "created_at": "2024-06-06T20:04:33.400Z"
+    },
+    {
+      "id": "hvtidbgwlx52ske0",
+      "type": "income",
+      "name": "Алексей",
+      "sum": 122131313,
+      "account_id": "hvtidbgwlx52sgag",
+      "user_id": "hvtidbgwlx52s795",
+      "created_at": "2024-06-07T19:24:46.008Z"
+    },
+    {
+      "id": "hvtidbgwlx52soof",
+      "type": "expense",
+      "name": "Алексей",
+      "sum": 2312313,
+      "account_id": "hvtidbgwlx52sgag",
+      "user_id": "hvtidbgwlx52s795",
+      "created_at": "2024-06-07T19:24:51.567Z"
     }
   ]
 }
