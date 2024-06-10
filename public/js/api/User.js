@@ -10,7 +10,16 @@ class User {
 	}
 
 	static current() {
-		return JSON.parse(localStorage.getItem('user'));
+		let userString = localStorage.getItem('user');
+		if (userString) {
+			try {
+				return JSON.parse(userString);
+			} catch (_error) {
+				return undefined;
+			}
+		} else {
+			return undefined;
+		};
 	}
 
 	static fetch(callback) {

@@ -6,14 +6,13 @@ class CreateTransactionForm extends AsyncForm {
 
 	renderAccountsList() {
 		const selectElement = this.element.querySelector(".accounts-select");
-		const user = localStorage.getItem('user');
-		const data = JSON.parse(user);
+		const data = User.current();
 		Account.list({ user: data?.user, password: data?.password }, (err, response) => {
 			if (err) {
 				console.error(err);
 				return;
 			}
-			selectElement.innerHTML = response.data.map(account => `<option value="${account.id}">${account.name}</option>`).join("");
+			selectElement.innerHTML = response?.data?.map(account => `<option value="${account.id}">${account.name}</option>`).join("");
 		});
 	}
 

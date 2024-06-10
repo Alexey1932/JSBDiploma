@@ -95,6 +95,18 @@
       "email": "antipin.alexey1991@gmail.com",
       "password": "HUI",
       "id": "hvtid7vslx532nbh"
+    },
+    {
+      "name": "Алексей",
+      "email": "addd@jjjj.com",
+      "password": "1312314314",
+      "id": "hvtidaaglx9b7feq"
+    },
+    {
+      "name": "rfrf",
+      "email": "tt@hh.ru",
+      "password": "frfrfgrfrf",
+      "id": "hvtidaaglx9bx4rk"
     }
   ],
   "accounts": [
@@ -147,6 +159,26 @@
       "name": "32323",
       "user_id": "hvtidbgwlx52s795",
       "id": "hvtidbgwlx52sgag"
+    },
+    {
+      "name": "fdeferf",
+      "user_id": "hvtid7vslx532nbh",
+      "id": "hvtid8pslx54a3yn"
+    },
+    {
+      "name": "fefefef",
+      "user_id": "hvtid7vslx532nbh",
+      "id": "hvtid8pslx54a7lw"
+    },
+    {
+      "name": "Алексей",
+      "user_id": "hvtidaaglx9b7feq",
+      "id": "hvtidaaglx9b7sab"
+    },
+    {
+      "name": "ddd",
+      "user_id": "hvtidaaglx9b7feq",
+      "id": "hvtidaaglx9b7yg8"
     }
   ],
   "transactions": [
@@ -353,6 +385,60 @@
       "account_id": "hvtidbgwlx52sgag",
       "user_id": "hvtidbgwlx52s795",
       "created_at": "2024-06-07T19:24:51.567Z"
+    },
+    {
+      "id": "hvtid8pslx54albd",
+      "type": "income",
+      "name": "frefrf",
+      "sum": 1111,
+      "account_id": "hvtid8pslx54a3yn",
+      "user_id": "hvtid7vslx532nbh",
+      "created_at": "2024-06-07T20:06:46.633Z"
+    },
+    {
+      "id": "hvtid8pslx54arzk",
+      "type": "income",
+      "name": "dddd",
+      "sum": 111,
+      "account_id": "hvtid8pslx54a3yn",
+      "user_id": "hvtid7vslx532nbh",
+      "created_at": "2024-06-07T20:06:55.280Z"
+    },
+    {
+      "id": "hvtid8pslx54ayu3",
+      "type": "expense",
+      "name": "dddd",
+      "sum": 1111,
+      "account_id": "hvtid8pslx54a3yn",
+      "user_id": "hvtid7vslx532nbh",
+      "created_at": "2024-06-07T20:07:04.155Z"
+    },
+    {
+      "id": "hvtidaaglx9b7uxq",
+      "type": "income",
+      "name": "Алексей",
+      "sum": 1111,
+      "account_id": "hvtidaaglx9b7sab",
+      "user_id": "hvtidaaglx9b7feq",
+      "created_at": "2024-06-10T18:31:41.150Z"
+    },
+    {
+      "id": "hvtidaaglx9b8526",
+      "type": "income",
+      "name": "ddd",
+      "sum": 11,
+      "account_id": "hvtidaaglx9b7yg8",
+      "user_id": "hvtidaaglx9b7feq",
+      "created_at": "2024-06-10T18:31:54.270Z"
+    },
+    {
+      "id": "hvtidaaglx9b89z6",
+      "type": "expense",
+      "name": "сампкае",
+      "sum": 11,
+      "account_id": "hvtidaaglx9b7sab",
+      "user_id": "hvtidaaglx9b7feq",
+      "created_at": "2024-06-10T18:32:00.642Z"
     }
   ]
 }
