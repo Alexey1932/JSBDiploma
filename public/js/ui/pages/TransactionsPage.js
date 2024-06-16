@@ -15,9 +15,17 @@ class TransactionsPage {
 		this.element.addEventListener('click', (event) => {
 			if (event.target.classList.contains('remove-account')) {
 				this.removeAccount();
-			} else if (event.target.classList.contains('transaction__remove')) {
-				const transactionId = event.target.dataset.id;
-				this.removeTransaction(transactionId);
+			}
+			else {
+				const removeButton = event.target.closest('.transaction__remove');
+				if (removeButton) {
+					const transactionId = removeButton.dataset.id;
+
+					const confirmation = confirm('Вы действительно хотите удалить эту транзакцию?');
+					if (confirmation) {
+						this.removeTransaction(transactionId);
+					}
+				}
 			}
 		});
 	}
